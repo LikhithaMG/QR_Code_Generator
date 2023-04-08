@@ -1,0 +1,64 @@
+body{
+    background-color:rgb(212, 238, 252);
+}
+#div1{
+  height:550px;
+  width:600px;
+  background-color:rgb(172, 221, 248);
+  margin-top:30px;
+  border:1px solid rgb(172, 221, 248);
+  border-radius: 10px;
+}
+.container{
+background-color: white;
+height:250px;
+width:400px;
+text-align: center;
+transition:.1s;
+margin-top:30px;
+border:1px solid black;
+border-radius: 5px;
+}
+.container .enter{
+    height:40px;
+    width:300px;
+    border:1px solid black;
+    border-radius:5px;
+    font-size:20px;
+}
+.container .btn{
+    height:40px;
+    width:300px;
+    text-align: center;
+    color:white;
+    font-size:15px;
+    background-color: rgb(108, 177, 234);
+    border:1px solid rgb(108, 177, 234);
+    border-radius:5px;
+    font-weight: bold;
+}
+.container .one{
+    height:200px;
+    width:200px;
+}
+.container.active{
+    height:450px;
+}
+.qr-code{
+    padding: 25px 0;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    opacity:0;
+    pointer-events: none;
+    transition: .5s;
+}
+.container.active .qr-code{
+    opacity: 1;
+    pointer-events: auto;
+  } 
+  
+  
